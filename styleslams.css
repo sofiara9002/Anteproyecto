@@ -1,0 +1,81 @@
+        body {
+            font-family: 'Bebas Neue', sans-serif;
+            margin: 10px;
+            padding: 5;
+            background-color: #7F8CAA;
+        }
+        .container {
+            max-width: 1000px;
+            background: rgb(51, 52, 70);
+            padding: 15px;
+            margin: auto;
+            box-shadow: 0px 0px 50px rgba(80, 77, 77, 0.587);
+        }
+        h1 {
+            text-align: center;
+        }
+        .news-columns {
+            column-count: 2;
+            column-gap: 50px;
+            column-rule: 10px solid #EAEFEF;
+            text-align: justify;
+        }
+        .image {
+            width: 255px; 
+            height: 255px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            display: block;
+            margin: 0 auto; 
+            position: relative;
+            transform: translateY(-3%);
+           
+        }
+        .content-box {
+            background-color: #EAEFEF;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+        }
+        .content-box p {
+            font-size: 1.1em;
+            line-height: 1.0;
+        }
+        h3 {
+            font-size: 4em;
+            font-weight: bold;
+            background-color: #83cdad;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 0px 0px 10px 7px rgba(75, 71, 71, 0.388);
+            width: 75%;
+            margin: 20px auto;
+            border-radius: 75px;
+            font-family: 'Bebas Neue', sans-serif;
+            color: #333;
+        }
+        
+        .content-title {
+            font-size: 2.1em;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+.banner {
+    width: 900px;
+    height: auto;  
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+        footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+        
+}
